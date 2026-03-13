@@ -1,0 +1,108 @@
+{
+    "zones": [
+        {
+            "id": "delhi_center",
+            "name": "Delhi Central",
+            "city": "Delhi",
+            "center": [
+                28.7041,
+                77.1025
+            ],
+            "radius": 8000,
+            "level": "red",
+            "avgAQI": 220,
+            "description": "Industrial and high-traffic area with severe pollution"
+        },
+        {
+            "id": "delhi_south",
+            "name": "South Delhi",
+            "city": "Delhi",
+            "center": [
+                28.5355,
+                77.2490
+            ],
+            "radius": 6000,
+            "level": "yellow",
+            "avgAQI": 95,
+            "description": "Moderate pollution from vehicle emissions"
+        },
+        {
+            "id": "mumbai_downtown",
+            "name": "Mumbai Downtown",
+            "city": "Mumbai",
+            "center": [
+                19.0760,
+                72.8777
+            ],
+            "radius": 7000,
+            "level": "red",
+            "avgAQI": 180,
+            "description": "High traffic and industrial pollution"
+        },
+        {
+            "id": "mumbai_coastal",
+            "name": "Mumbai Coastal",
+            "city": "Mumbai",
+            "center": [
+                19.1136,
+                72.8697
+            ],
+            "radius": 5000,
+            "level": "green",
+            "avgAQI": 45,
+            "description": "Coastal area with good air circulation"
+        },
+        {
+            "id": "bangalore_tech",
+            "name": "Bangalore Tech Park",
+            "city": "Bangalore",
+            "center": [
+                12.9716,
+                77.5946
+            ],
+            "radius": 6000,
+            "level": "yellow",
+            "avgAQI": 85,
+            "description": "Moderate pollution in tech hub area"
+        },
+        {
+            "id": "bangalore_green",
+            "name": "Bangalore Green Belt",
+            "city": "Bangalore",
+            "center": [
+                12.9352,
+                77.6245
+            ],
+            "radius": 4000,
+            "level": "green",
+            "avgAQI": 38,
+            "description": "Low pollution in residential green area"
+        },
+        {
+            "id": "chennai_industrial",
+            "name": "Chennai Industrial Zone",
+            "city": "Chennai",
+            "center": [
+                13.0827,
+                80.2707
+            ],
+            "radius": 8000,
+            "level": "red",
+            "avgAQI": 195,
+            "description": "Heavy industrial pollution"
+        },
+        {
+            "id": "kolkata_central",
+            "name": "Kolkata Central",
+            "city": "Kolkata",
+            "center": [
+                22.5726,
+                88.3639
+            ],
+            "radius": 7000,
+            "level": "yellow",
+            "avgAQI": 110,
+            "description": "Urban area with moderate pollution"
+        }
+    ]
+}
