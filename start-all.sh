@@ -26,8 +26,8 @@ source ../venv/bin/activate && python simulator.py &
 SIMULATOR_PID=$!
 
 echo "✅ All services started!"
-echo "📊 Dashboard: https://$CODESPACE_NAME-3000.app.github.dev"
-echo "🔧 Backend: https://$CODESPACE_NAME-5000.app.github.dev"
+echo "📊 Dashboard: http://localhost:3000"
+echo "🔧 Backend: http://localhost:5000"
 echo ""
 echo "Press Ctrl+C to stop all services"
 

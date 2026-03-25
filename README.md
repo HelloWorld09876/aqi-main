@@ -2,12 +2,14 @@
 
 ## 🚀 Quick Start Guide
 
-### Running on GitHub Codespaces (Recommended)
+### Quick Start (All Services)
 
-1. Open this repository in GitHub Codespaces
-2. The dev container will automatically install all dependencies
-3. Run the application with a single command:
+**On Windows:**
+```cmd
+run.bat
+```
 
+**On Linux/Mac:**
 ```bash
 ./start-all.sh
 ```
@@ -19,31 +21,11 @@ This will start all services (backend, dashboard, and simulator) automatically.
 - Dashboard: `Compiled successfully!` (React dev server)
 - Simulator: `🚀 Virtual Sensor Network Started 📡 8 sensor nodes active`
 
-4. Access the dashboard at: **https://[codespace-name]-3000.app.github.dev**
+Access the dashboard at: **http://localhost:3000**
 
-**To stop all services:** Press `Ctrl+C` in the terminal.
+**To stop all services:** Press `Ctrl+C` in the terminal (or close windows on Windows).
 
-#### Manual Startup (Alternative)
-If you prefer to start services individually:
-
-##### Start the Backend Server
-```bash
-npm start
-```
-
-##### Start the React Dashboard (in a new terminal)
-```bash
-cd dashboard-new
-npm start
-```
-
-##### Start the Sensor Simulator (in a new terminal)
-```bash
-cd hardware-simulator
-python simulator.py
-```
-
-### Running Locally
+### Manual Startup (Running Individually)
 
 #### Prerequisites
 - Node.js (v14 or higher)
